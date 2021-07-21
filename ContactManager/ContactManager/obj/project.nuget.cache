@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rW5dWhamlyc748+Xl3stEXjEqliLd/sKvoEb35dFpeAOQJvtKNX5c6jiA5DiM7cZrlPw8FvTenNInD9OEdsiAg==",
+  "dgSpecHash": "zqXeQyEeg1VDGOOmcedOIrrQq6muX8j/aPzO606xYHGNrS6+lYtA50ApR3CIWRD345UVxUe/7foVlpaACsGjSg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Documents\\Projects\\ContactManager\\ContactManager\\ContactManager.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Documents\\Projects\\C#\\ContactManagerApi\\ContactManager\\ContactManager\\ContactManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

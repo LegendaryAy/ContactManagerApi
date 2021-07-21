@@ -256,7 +256,7 @@ namespace ContactManager.Controllers
                 _contactRepo.RemoveContact(contact);
                 if(_contactRepo.GetContactCount() < count)
                 {
-                    return Ok();
+                    return Ok("Successfully Deleted");
                 }
             }
             catch (Exception)
@@ -272,6 +272,7 @@ namespace ContactManager.Controllers
         [HttpPatch("photo/{id}")]
         [AllowAnonymous]
         public IActionResult AddPhoto(int id, [FromForm]PhotoToAddDto model)
+        
         {
             var user = _contactRepo.GetContactById(id);
             if (user == null)
